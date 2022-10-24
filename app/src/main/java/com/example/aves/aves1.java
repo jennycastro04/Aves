@@ -7,7 +7,6 @@ import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Spinner;
 
@@ -27,7 +26,9 @@ public class aves1 extends AppCompatActivity  {
         spinner = findViewById(R.id.spinner);
         btnsonido = findViewById(R.id.imageButton10);
 
-        String[] opciones = {"Seleccionar ave",/*"Bolborhynchus ferrugineifrons",*/"Chlorochrysa nitidissima", "Cistothorus apolinari", "Coeligena orina", "Doliornis remseni", "Grallaria urraoensis", "Lipaugus weberi", "Odontophorus strophium", "Rallus semiplumbeus"};
+        String[] opciones = {"Seleccionar ave",/*"Bolborhynchus ferrugineifrons",*/"Chlorochrysa nitidissima",
+                "Cistothorus apolinari", "Coeligena orina", "Doliornis remseni", "Grallaria urraoensis",
+                "Lipaugus weberi", "Odontophorus strophium", "Rallus semiplumbeus"};
         ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_spinner_item, opciones);
         spinner.setAdapter(adapter);
 

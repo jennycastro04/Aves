@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Aves</string>
+    <string name="title_activity_mapa1">Mapa1</string>
+    <string name="title_activity_mapa_ave1">MapaAve1</string>
 </resources>
